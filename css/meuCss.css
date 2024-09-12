@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: #0e1628;
+}
+
+nav{
+	max-width: 100%;
+     /*MEU NAV É ONDE ESTÃO OS LINKS, PEGARÁ A TELA TODA */
+	height: 48px; /*A ALTURA VC ESCOLHE, EU DEIXEI PIXEL PARA FICAR FIXA*/
+	background-color: #070a14;
+    float: right;
+}
+.navbotao{
+      float: right;
+      padding-top: 2%;
+}
+
+nav ul{
+	list-style: none; /*DESATIVA AS PROPRIEDADES DO ELEMENTO*/
+	margin:0px;
+	padding:0px;
+	text-align:center;
+    font-family: Century Gothic, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li{
+	display: inline-block;	/*blocos na mesma linha*/
+	margin-right:10px; /*distância entre os botoes*/
+}
+
+nav ul li a{
+	padding: 15px;
+	text-decoration: none; /*retirar a linha abaixo dos links normais*/
+	color: #ffffff;
+	display: block;
+	text-align: center;
+    /*cor do botao sem clicar. 
+    Aqui está da mesma cor do nav por isso não está aparecendo*/
+}
+
+
+nav ul li a:hover {
+	background-color: #d7a134; /*cor quando passar o mouse*/
+	transition: all .5s; 
+}
+
+
+.tamanhoLogo{
+    width: 100%;
+    height: 90px;
+   
+}
+
+.tamanhobanner{
+    width: 100%;
+    height: 600px;
+    padding-bottom:5%;
+
+}
+
+.tamanhobannerLateral{
+    width: 100%;
+    height:450px;
+    padding-left: 8%;
+}
+
+.areaservicos{
+    width:100%;
+    height: 400%;
+    background-color:white; 
+    padding-top: 1%;
+       
+}
+
+.textoservicos{
+    width:100%;
+    height: 200%;
+    background-color:white; 
+    padding-bottom: 1%;
+       
+}
+
+.h1-servico{
+    color: #0e1628;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:2%;
+    padding-right: 2%;
+}
+
+p{
+    color: #0e1628;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1%;
+}
+
+.sobre{
+    width: 50%;
+    height:500px;
+    background-color:#0e1628;
+    padding-bottom:25%;
+   
+
+ }
+   
+.textoLateral{
+    width: 50%;
+    height:auto;
+    background-color:#0e1628 ;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15%;
+    
+}
+
+h1{
+    font-size: 35px;
+    color: white;
+    padding-left: 15%;
+}
+
+.imgservico{
+    width: 100%;
+    height: 100px;
+}
+
+.servicos{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    padding-bottom:  10%;
+}
+
+.imgservico{
+    width: 100%;
+    height: auto;
+}
+
+.servicos{
+    width: 1700px;
+    height: auto;
+    padding-bottom:10px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.equipe{
+    width: 1700px;
+    height: auto;
+    padding-bottom:10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.h1-equipe{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.unidades{
+    width: 1700px;
+    height: auto;
+    padding-top:10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.h1-unidades{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+/* Agendamento */
+
+.agendamento{ /* body */
+    background-color: #0e1628;
+}
+
+#conteudo_formulario{
+    margin:auto;
+    width: 50%;
+    font-family:century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+}
+
+input, textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    border-color:#d7a134;
+    padding:5px;
+    border-radius:5px;
+}
+
+label{ /*  distanciamento entre as caixas */
+    padding-right:3%;
+    color: #ffffff;
+}
+
+footer{
+    margin-top:3%;
+}
+#botoes{
+    margin:3%;
+    margin-left:13%;
+}
+.botao2{
+    padding-top: 10%;
+    padding-right: 50px;
+    margin: auto;
+
+    background-color: aqua;
+
+}
